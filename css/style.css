@@ -1,0 +1,161 @@
+html {
+    box-sizing: border-box;
+ }
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'courier new', courier, sans-serif; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    color: #555;
+}
+
+h1 { 
+    font-size: 36px; 
+    font-weight: 700; 
+    line-height: 1.2;
+} 
+h2 { 
+    font-size: 21px; 
+    font-weight: 700; 
+    line-height: 1.2;
+} 
+
+p { 
+    font-size: 16px; 
+    line-height: 20px;
+    margin-bottom: 20px;
+} 
+a {
+    text-decoration: none;
+    color: #2ec371;
+}
+blockquote { 
+    font-size: 21px;     
+    line-height: 30px;
+}
+pre {
+    font-size: 13px;     
+    line-height: 18.5714px; 
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* navbar header */
+#header-title {
+    float: left;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+#header-nav {
+    float: right;
+}
+
+#header-nav li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#header-nav li a {
+    display: block;
+    padding: 15px ;
+}
+
+/* top section styling */
+#top {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    text-align: center;
+    background-color: #cbd0d2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url('../images/texture-1762532_1920.jpg') no-repeat center bottom;
+    background-size: cover; 
+}
+
+#top h1 {
+    color: #2ec371;
+    font-weight: 800;
+}
+
+#top h2 {
+    color: #cecece;
+    font-weight: 200; 
+}
+
+.skinny {
+    font-weight: 100;
+    color: #fefefe;
+}
+
+/* middle section sytling */
+#tiger-image {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+/* bottom section */
+
+#bottom {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+#bottom p {
+    height: 120px;
+}
+
+#bottom h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 32px; 
+    font-weight: 600; 
+    text-align: center;
+    line-height: 1.2;   
+} 
+
+#bottom img {
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.one-half {
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 40%;
+    padding: 30px 20px;
+    margin: 1%;
+    vertical-align: top;
+}
+
+.btn {
+    background-color: #428bca;
+    border: 1px solid #357ebd;
+    color: #fefefe;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #357ebd;
+}
+
+/* universal */
+
+/* in container, "margin: 0 auto;" gives a centered box for inline text*/
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+/*[Force an Element To Self-Clear its Children](https://css-tricks.com/snippets/css/clear-fix/)*/
+.row:after, .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
